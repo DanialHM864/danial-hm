@@ -1,0 +1,20 @@
+DANIAL HM — SEO UPDATE
+
+Upload the CONTENTS of this folder to the ROOT of your GitHub repository.
+Choose “Replace files” if GitHub asks.
+
+Files included:
+- Updated HTML pages with canonical URLs, Open Graph, Twitter Cards and JSON-LD
+- sitemap.xml
+- robots.txt
+- site.webmanifest
+- favicon.ico
+- app and Apple icons
+
+Keep your Google verification HTML file in the repository. Do not delete it.
+
+After GitHub Pages finishes deploying:
+1. Open https://danialhm864.github.io/danial-hm/sitemap.xml and confirm it loads.
+2. In Google Search Console → Sitemaps, enter: sitemap.xml
+3. Click Submit.
+4. Use URL Inspection for the homepage and click Request indexing.

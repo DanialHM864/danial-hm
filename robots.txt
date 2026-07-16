@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-# Add the final sitemap URL after deployment.
+
+Sitemap: https://danialhm864.github.io/danial-hm/sitemap.xml
