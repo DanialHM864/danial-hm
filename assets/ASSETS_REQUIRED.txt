@@ -1,4 +1,5 @@
-Copy these files here:
+Keep or upload these image files in this folder using the exact names below:
+
 trace-of-a-gazelle-cover.jpg
 danial-hm-portrait.jpg
 theyd-charge-for-air-cover.jpg
@@ -6,3 +7,5 @@ unspoken-ground-cover.jpg
 in-the-presence-of-stillness-cover.jpg
 where-pain-learns-to-bloom-cover.jpg
 breath-of-eternity-cover.jpg
+
+These JPG files are not included in this update package. If they already exist in your GitHub assets folder, leave them there.

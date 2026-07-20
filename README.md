@@ -1,8 +1,12 @@
-# Danial HM Official Website
+# Danial HM Official Website V2
 
-Before publishing:
-1. Copy all required JPG files into `assets/`.
-2. Create a public GitHub repository named `danial-hm`.
-3. Upload all files preserving folders.
-4. Settings → Pages → Deploy from branch → main / root.
-5. After receiving the live URL, add canonical URLs, absolute Open Graph image URLs, sitemap.xml and the final sitemap line in robots.txt.
+Static multi-page artist website for GitHub Pages.
+
+## Main features
+- Google Analytics 4 with consent-first loading
+- Responsive design
+- Artist and release structured data
+- Open Graph and Twitter Cards
+- Press archive
+- Privacy controls
+- Sitemap, robots and web manifest
