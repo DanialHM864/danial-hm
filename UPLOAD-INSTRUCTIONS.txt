@@ -1,14 +1,24 @@
-PROFILEPAGE SCHEMA FIX
+DANIAL HM WEBSITE UPDATE — NEWFIRE MAGAZINE
 
-1. Upload index.html to the ROOT of your GitHub repository.
-2. Allow GitHub to replace the existing index.html.
-3. Commit message:
-   Fix ProfilePage mainEntity and strengthen artist identity graph
-4. Wait for GitHub Pages to deploy.
-5. Retest the homepage in Google Rich Results Test.
+This package contains the complete current website, including:
+- The valid ProfilePage mainEntity fix
+- NewFire Magazine coverage dated July 20, 2026
+- Updated homepage press presentation
+- Updated Press page with the newest publication first
+- A linked Press Coverage section on Trace of a Gazelle
+- Updated JSON-LD subjectOf relationships for the artist and release
+- Existing GA4, consent controls, Open Graph, Twitter Card and Schema configuration
 
-Expected result:
-- Profile page: valid
-- Missing field "mainEntity": resolved
+UPLOAD:
+1. Extract this ZIP.
+2. Open the folder danial-hm-official-site-v2.
+3. Upload ALL contents to the ROOT of your GitHub repository.
+4. Allow GitHub to replace files with the same names.
+5. Do not remove your Google verification HTML file already stored in GitHub.
+6. Keep your existing JPG portrait and cover files in /assets.
+7. Commit message:
+   Add NewFire Magazine feature and update press entity signals
+8. Wait for GitHub Pages to deploy.
+9. Test the Home, Press and Trace of a Gazelle pages.
 
-No other website files need to be replaced for this correction.
+No new image file is required for this update.
