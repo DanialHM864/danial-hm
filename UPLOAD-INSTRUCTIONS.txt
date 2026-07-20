@@ -1,31 +1,14 @@
-DANIAL HM OFFICIAL WEBSITE V2 — UPLOAD INSTRUCTIONS
+PROFILEPAGE SCHEMA FIX
 
-1. Extract this ZIP.
-2. Open the extracted folder.
-3. Upload ALL files and folders inside it to the ROOT of your GitHub repository.
-4. Allow GitHub to replace files with the same names.
-5. Do NOT delete your Google Search Console verification file:
-   google80cf138f6306ae34.html
-6. Keep your existing JPG cover and portrait files inside /assets.
-7. Commit message:
-   Launch Danial HM website v2 with GA4, privacy, press and complete SEO
-8. Wait for GitHub Pages to deploy.
-9. Open:
-   https://danialhm864.github.io/danial-hm/
-10. Accept analytics once, then return to Google Analytics and use “Test installation” or check Realtime.
+1. Upload index.html to the ROOT of your GitHub repository.
+2. Allow GitHub to replace the existing index.html.
+3. Commit message:
+   Fix ProfilePage mainEntity and strengthen artist identity graph
+4. Wait for GitHub Pages to deploy.
+5. Retest the homepage in Google Rich Results Test.
 
-Included:
-- GA4 measurement ID G-W52V4DZGMG
-- Consent-first analytics banner
-- Updated biography and release copy
-- New Portal Nosso Som and Electroctopus press links
-- Open Graph and Twitter Card metadata
-- Person, WebSite, WebPage, MusicRecording and MusicAlbum structured data
-- Canonical URLs
-- Updated sitemap.xml and robots.txt
-- Privacy page
-- Apple touch icons and web manifest
-- Updated mobile navigation and accessibility behavior
+Expected result:
+- Profile page: valid
+- Missing field "mainEntity": resolved
 
-Important:
-The privacy page is a practical starter notice, not a substitute for professional legal advice.
+No other website files need to be replaced for this correction.
