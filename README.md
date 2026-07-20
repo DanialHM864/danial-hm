@@ -1,8 +1,8 @@
 # Danial HM Official Website
 
-Current production update includes:
+Current production version includes:
 - Google Analytics 4 with consent-first loading
-- Structured data and valid ProfilePage markup
+- Valid ProfilePage and music structured data
 - Open Graph and Twitter/X Cards
-- Press coverage from NewFire Magazine, Electroctopus, Portal Nosso Som, UpHere Magazine and World Music Central
+- Press coverage from Zillions Magazine, NewFire Magazine, Electroctopus, Portal Nosso Som, UpHere Magazine and World Music Central
 - Linked press coverage on the Trace of a Gazelle release page

@@ -1,24 +1,27 @@
-DANIAL HM WEBSITE UPDATE — NEWFIRE MAGAZINE
+DANIAL HM WEBSITE UPDATE — ZILLIONS MAGAZINE
 
-This package contains the complete current website, including:
-- The valid ProfilePage mainEntity fix
-- NewFire Magazine coverage dated July 20, 2026
-- Updated homepage press presentation
-- Updated Press page with the newest publication first
-- A linked Press Coverage section on Trace of a Gazelle
-- Updated JSON-LD subjectOf relationships for the artist and release
-- Existing GA4, consent controls, Open Graph, Twitter Card and Schema configuration
+This complete package includes all previous website improvements plus:
+- Zillions Magazine feature dated July 20, 2026
+- Updated homepage press cards
+- Updated Press page with Zillions Magazine at the top
+- Updated Trace of a Gazelle Press Coverage section
+- Updated JSON-LD subjectOf links for both Danial HM and Trace of a Gazelle
+- Existing ProfilePage mainEntity fix
+- Existing GA4, privacy consent, Open Graph, Twitter/X Card, sitemap and structured data
 
 UPLOAD:
 1. Extract this ZIP.
 2. Open the folder danial-hm-official-site-v2.
 3. Upload ALL contents to the ROOT of your GitHub repository.
 4. Allow GitHub to replace files with the same names.
-5. Do not remove your Google verification HTML file already stored in GitHub.
-6. Keep your existing JPG portrait and cover files in /assets.
+5. Do not delete the Google Search Console verification HTML file already in GitHub.
+6. Keep all existing JPG artwork and portrait files in /assets.
 7. Commit message:
-   Add NewFire Magazine feature and update press entity signals
+   Add Zillions Magazine feature and expand Trace of a Gazelle press coverage
 8. Wait for GitHub Pages to deploy.
-9. Test the Home, Press and Trace of a Gazelle pages.
+9. Check:
+   - Home
+   - Press
+   - Trace of a Gazelle
 
-No new image file is required for this update.
+No new image is required.
