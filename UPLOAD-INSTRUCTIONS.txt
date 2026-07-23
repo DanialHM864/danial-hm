@@ -1,13 +1,12 @@
-DANIAL HM WEBSITE UPDATE — ZILLIONS MAGAZINE
+DANIAL HM WEBSITE UPDATE — UPHERE MAGAZINE
 
 This complete package includes all previous website improvements plus:
-- Zillions Magazine feature dated July 20, 2026
-- Updated homepage press cards
-- Updated Press page with Zillions Magazine at the top
+- New UpHere Magazine feature for Trace of a Gazelle
+- Updated homepage press highlights
+- Updated Press page with UpHere Magazine at the top
 - Updated Trace of a Gazelle Press Coverage section
-- Updated JSON-LD subjectOf links for both Danial HM and Trace of a Gazelle
-- Existing ProfilePage mainEntity fix
-- Existing GA4, privacy consent, Open Graph, Twitter/X Card, sitemap and structured data
+- Updated JSON-LD subjectOf relationships for Danial HM and Trace of a Gazelle
+- Existing ProfilePage fix, GA4, privacy consent, Open Graph, Twitter/X Card, sitemap and structured data
 
 UPLOAD:
 1. Extract this ZIP.
@@ -17,11 +16,8 @@ UPLOAD:
 5. Do not delete the Google Search Console verification HTML file already in GitHub.
 6. Keep all existing JPG artwork and portrait files in /assets.
 7. Commit message:
-   Add Zillions Magazine feature and expand Trace of a Gazelle press coverage
+   Add UpHere Magazine feature and expand Trace of a Gazelle press coverage
 8. Wait for GitHub Pages to deploy.
-9. Check:
-   - Home
-   - Press
-   - Trace of a Gazelle
+9. Check Home, Press and Trace of a Gazelle.
 
 No new image is required.
