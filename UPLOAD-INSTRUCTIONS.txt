@@ -1,12 +1,13 @@
-DANIAL HM WEBSITE UPDATE — UPHERE MAGAZINE
+DANIAL HM WEBSITE UPDATE — THE STRIVE MAGAZINE
 
 This complete package includes all previous website improvements plus:
-- New UpHere Magazine feature for Trace of a Gazelle
-- Updated homepage press highlights
-- Updated Press page with UpHere Magazine at the top
+- The Strive Magazine feature dated July 24, 2026
+- Updated homepage press presentation
+- Updated Press page with the newest article first
 - Updated Trace of a Gazelle Press Coverage section
 - Updated JSON-LD subjectOf relationships for Danial HM and Trace of a Gazelle
-- Existing ProfilePage fix, GA4, privacy consent, Open Graph, Twitter/X Card, sitemap and structured data
+- Existing ProfilePage mainEntity fix
+- Existing GA4, consent controls, Open Graph, Twitter/X Card, sitemap and structured data
 
 UPLOAD:
 1. Extract this ZIP.
@@ -16,8 +17,11 @@ UPLOAD:
 5. Do not delete the Google Search Console verification HTML file already in GitHub.
 6. Keep all existing JPG artwork and portrait files in /assets.
 7. Commit message:
-   Add UpHere Magazine feature and expand Trace of a Gazelle press coverage
+   Add The Strive Magazine feature and expand press coverage
 8. Wait for GitHub Pages to deploy.
-9. Check Home, Press and Trace of a Gazelle.
+9. Check:
+   - Home
+   - Press
+   - Trace of a Gazelle
 
 No new image is required.
