@@ -40,7 +40,7 @@ window.addEventListener("resize", () => {
 if (currentYear) currentYear.textContent = new Date().getFullYear();
 
 const revealItems = document.querySelectorAll(
-  ".section-heading,.card,.release-layout,.about-layout,.press-feature,.contact-panel,.hero-content,.hero-art"
+  ".section-heading,.card,.release-layout,.about-layout,.press-feature,.contact-panel,.hero-content,.hero-art,.press-archive-card,.epk-panel,.copy-panel,.quote-card,.featured-review"
 );
 revealItems.forEach((item) => item.classList.add("reveal"));
 if ("IntersectionObserver" in window) {
@@ -132,3 +132,55 @@ if (savedConsent === "granted") {
 if (acceptAnalytics) acceptAnalytics.addEventListener("click", () => setConsent("granted"));
 if (declineAnalytics) declineAnalytics.addEventListener("click", () => setConsent("denied"));
 if (privacySettings) privacySettings.addEventListener("click", openCookieBanner);
+
+
+// Website V2.0: press archive filters
+const filterButtons = document.querySelectorAll(".filter-button");
+const pressCards = document.querySelectorAll(".press-archive-card");
+const pressEmpty = document.querySelector("#pressEmpty");
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const filter = button.dataset.filter || "all";
+    filterButtons.forEach((item) => item.classList.toggle("active", item === button));
+    let visible = 0;
+
+    pressCards.forEach((card) => {
+      const matches = filter === "all" ||
+        card.dataset.year === filter ||
+        card.dataset.country === filter ||
+        card.dataset.release === filter;
+      card.hidden = !matches;
+      if (matches) visible += 1;
+    });
+
+    if (pressEmpty) pressEmpty.hidden = visible !== 0;
+  });
+});
+
+// Website V2.0: copy approved media text
+document.querySelectorAll(".copy-button").forEach((button) => {
+  button.addEventListener("click", async () => {
+    const target = document.getElementById(button.dataset.copyTarget || "");
+    if (!target) return;
+    const original = button.textContent;
+
+    try {
+      await navigator.clipboard.writeText(target.textContent.trim());
+      button.textContent = "Copied";
+      button.classList.add("copied");
+    } catch {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(target);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      button.textContent = "Select text";
+    }
+
+    window.setTimeout(() => {
+      button.textContent = original;
+      button.classList.remove("copied");
+    }, 1800);
+  });
+});

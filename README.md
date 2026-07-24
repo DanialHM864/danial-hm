@@ -1,8 +1,14 @@
-# Danial HM Official Website
+# Danial HM Official Website — Version 2.0
 
-Current production version includes:
-- Google Analytics 4 with consent-first loading
-- Valid ProfilePage and music structured data
-- Open Graph and Twitter/X Cards
-- Press coverage from The Strive Magazine, UpHere Magazine, Zillions Magazine, NewFire Magazine, Electroctopus, Portal Nosso Som and World Music Central
-- Linked press coverage on the Trace of a Gazelle release page
+Master production website for Danial HM.
+
+Included:
+- Professional home page and discography
+- Filterable press archive
+- Electronic Press Kit
+- Media Kit with copy-ready approved text
+- Current Trace of a Gazelle press coverage
+- GA4 consent-first analytics
+- Open Graph, Twitter/X Cards and JSON-LD
+- ProfilePage, CollectionPage, MusicRecording and breadcrumb structured data
+- Responsive dark editorial design

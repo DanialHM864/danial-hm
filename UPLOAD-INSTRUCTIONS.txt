@@ -1,27 +1,40 @@
-DANIAL HM WEBSITE UPDATE — THE STRIVE MAGAZINE
+DANIAL HM OFFICIAL WEBSITE — VERSION 2.0 MASTER
 
-This complete package includes all previous website improvements plus:
-- The Strive Magazine feature dated July 24, 2026
-- Updated homepage press presentation
-- Updated Press page with the newest article first
-- Updated Trace of a Gazelle Press Coverage section
-- Updated JSON-LD subjectOf relationships for Danial HM and Trace of a Gazelle
-- Existing ProfilePage mainEntity fix
-- Existing GA4, consent controls, Open Graph, Twitter/X Card, sitemap and structured data
+IMPORTANT:
+Upload the CONTENTS of the folder named “danial-hm” to the ROOT of your GitHub repository.
+Do not upload the outer folder itself.
 
-UPLOAD:
-1. Extract this ZIP.
-2. Open the folder danial-hm-official-site-v2.
-3. Upload ALL contents to the ROOT of your GitHub repository.
-4. Allow GitHub to replace files with the same names.
-5. Do not delete the Google Search Console verification HTML file already in GitHub.
-6. Keep all existing JPG artwork and portrait files in /assets.
+Files that should be visible directly in the repository root include:
+index.html
+press.html
+epk.html
+media-kit.html
+style.css
+script.js
+sitemap.xml
+assets/
+releases/
+
+UPLOAD STEPS:
+1. Extract danial-hm-website-v2-master.zip.
+2. Open the inner “danial-hm” folder.
+3. Select ALL files and folders inside it.
+4. Upload them to the root of DanialHM864/danial-hm.
+5. Allow GitHub to replace same-name files.
+6. Keep your existing Google verification HTML file.
 7. Commit message:
-   Add The Strive Magazine feature and expand press coverage
-8. Wait for GitHub Pages to deploy.
-9. Check:
-   - Home
-   - Press
-   - Trace of a Gazelle
+   Launch Danial HM website v2 with professional press archive and EPK
+8. Wait for the green GitHub Pages deployment.
+9. Verify:
+   /
+   press.html
+   epk.html
+   media-kit.html
+   releases/trace-of-a-gazelle.html
 
-No new image is required.
+FUTURE PRESS UPDATES:
+Use the smaller patch workflow. Usually only these files need replacement:
+index.html
+press.html
+releases/trace-of-a-gazelle.html
+and sometimes sitemap.xml, style.css or script.js.
