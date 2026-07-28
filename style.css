@@ -122,3 +122,29 @@ body.menu-open,body.cookie-open{overflow:hidden}a{color:inherit;text-decoration:
   .page-hero h1,.section h2,.epk-panel h2{color:#111}
   .lead,.epk-panel p:not(.eyebrow),.release-copy p,.quote-card{color:#333}
 }
+
+
+/* ── Website V2.2: synchronized release press coverage ───── */
+.release-press-heading{
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  gap:28px;
+  margin-top:70px;
+  margin-bottom:22px;
+}
+.release-press-heading .eyebrow{margin-bottom:10px}
+.release-press-heading h2{margin:0}
+.release-press-count{
+  padding:10px 14px;
+  border:1px solid var(--line);
+  color:var(--gold-light);
+  font-size:9px;
+  font-weight:400;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+@media(max-width:650px){
+  .release-press-heading{align-items:flex-start;flex-direction:column}
+}

@@ -1,3 +1,15 @@
-# Danial HM Official Website — Version 2.1
+# Danial HM Official Website — Version 2.2
 
-Includes Kindline Magazine coverage dated July 28, 2026, updated press archive, EPK, release-page coverage, sitemap and structured data.
+Version 2.2 introduces a synchronized press-data workflow.
+
+Current Trace of a Gazelle coverage:
+1. Kindline Magazine
+2. The Strive Magazine
+3. UpHere Magazine
+4. Zillions Magazine
+5. NewFire Magazine
+6. Electroctopus
+7. Portal Nosso Som
+
+The release page, MusicRecording JSON-LD and visible press count are synchronized to exactly seven published features.
+Canonical press data is stored in `data/press.json`.
