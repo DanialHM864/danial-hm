@@ -1,40 +1,18 @@
-DANIAL HM OFFICIAL WEBSITE — VERSION 2.0 MASTER
+DANIAL HM WEBSITE UPDATE — KINDLINE MAGAZINE
 
-IMPORTANT:
-Upload the CONTENTS of the folder named “danial-hm” to the ROOT of your GitHub repository.
-Do not upload the outer folder itself.
+Use the smaller patch ZIP.
 
-Files that should be visible directly in the repository root include:
-index.html
+1. Extract danial-hm-website-v2-kindline-patch.zip.
+2. Open the inner folder danial-hm-v2-kindline-patch.
+3. Upload ALL contents to the ROOT of DanialHM864/danial-hm.
+4. Replace same-name files.
+5. Keep the Google verification HTML file.
+6. Commit message:
+   Add Kindline Magazine feature and update Danial HM press archive
+7. Wait for the green GitHub Pages deployment.
+
+Check:
+/
 press.html
 epk.html
-media-kit.html
-style.css
-script.js
-sitemap.xml
-assets/
-releases/
-
-UPLOAD STEPS:
-1. Extract danial-hm-website-v2-master.zip.
-2. Open the inner “danial-hm” folder.
-3. Select ALL files and folders inside it.
-4. Upload them to the root of DanialHM864/danial-hm.
-5. Allow GitHub to replace same-name files.
-6. Keep your existing Google verification HTML file.
-7. Commit message:
-   Launch Danial HM website v2 with professional press archive and EPK
-8. Wait for the green GitHub Pages deployment.
-9. Verify:
-   /
-   press.html
-   epk.html
-   media-kit.html
-   releases/trace-of-a-gazelle.html
-
-FUTURE PRESS UPDATES:
-Use the smaller patch workflow. Usually only these files need replacement:
-index.html
-press.html
 releases/trace-of-a-gazelle.html
-and sometimes sitemap.xml, style.css or script.js.
