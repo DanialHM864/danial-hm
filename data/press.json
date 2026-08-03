@@ -1,11 +1,18 @@
 {
-  "schemaVersion": "2.2",
-  "lastUpdated": "2026-07-28",
+  "schemaVersion": "2.3",
+  "lastUpdated": "2026-08-03",
   "releases": {
     "trace-of-a-gazelle": {
       "title": "Trace of a Gazelle",
-      "pressCount": 7,
+      "pressCount": 8,
       "coverage": [
+        {
+          "publisher": "Soaplife Magazine",
+          "date": "2026-08-03",
+          "headline": "Danial HM Captures Stillness and Beauty on “Trace of a Gazelle”",
+          "url": "https://www.soaplifemagazine.com/2026/08/danial-hm-captures-stillness-and-beauty.html",
+          "quote": "Every sound seems purposeful and every silence meaningful."
+        },
         {
           "publisher": "Kindline Magazine",
           "date": "2026-07-28",

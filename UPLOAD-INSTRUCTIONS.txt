@@ -1,29 +1,22 @@
-DANIAL HM WEBSITE V2.2 — RELEASE PRESS SYNC FIX
+DANIAL HM WEBSITE V2.3 — SOAPLIFE UPDATE
 
-RECOMMENDED:
-Use danial-hm-website-v2-2-release-sync-patch.zip
-
-UPLOAD:
 1. Extract the patch ZIP.
-2. Open the inner folder named danial-hm-v2-2-release-sync-patch.
-3. Upload ALL contents to the ROOT of DanialHM864/danial-hm.
-4. Replace files with the same names.
-5. Keep the Google verification HTML file already in GitHub.
+2. Open danial-hm-v2-3-soaplife-patch.
+3. Upload all contents to the repository root.
+4. Replace same-name files.
+5. Keep the Google verification HTML file.
 6. Commit message:
-   Sync all seven Trace of a Gazelle press features across release page and schema
-7. Wait for the green GitHub Pages deployment.
+   Add Soaplife Magazine feature and sync eight Trace of a Gazelle press articles
+7. Wait for green deployment.
 
-CHECK:
+Check:
+/
+press.html
+epk.html
 releases/trace-of-a-gazelle.html
 
-The page must show exactly:
-01 Kindline Magazine
-02 The Strive Magazine
-03 UpHere Magazine
-04 Zillions Magazine
-05 NewFire Magazine
-06 Electroctopus
-07 Portal Nosso Som
-
-It must also display:
-7 published features
+Expected:
+Home press count: 10
+Press archive count: 10
+Publications count: 8
+Trace of a Gazelle: 8 published features
