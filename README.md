@@ -1,3 +1,5 @@
-# Danial HM Official Website — Version 2.3
+# Danial HM Official Website — Current Production
 
-Adds Soaplife Magazine coverage dated August 3, 2026 and synchronizes eight Trace of a Gazelle press features.
+Updated August 20, 2026 for the new single **A Prayer Beneath the Ruins** (release: August 21, 2026).
+
+The site includes the official release page, current artwork, HyperFollow/Apple Music/Audiomack links, UPC/ISRC metadata, updated discography, EPK, media kit, sitemap, Open Graph and JSON-LD structured data.
