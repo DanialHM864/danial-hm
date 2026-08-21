@@ -1,11 +1,18 @@
 {
-  "schemaVersion": "2.3",
-  "lastUpdated": "2026-08-03",
+  "schemaVersion": "2.4",
+  "lastUpdated": "2026-08-21",
   "releases": {
     "trace-of-a-gazelle": {
       "title": "Trace of a Gazelle",
-      "pressCount": 8,
+      "pressCount": 9,
       "coverage": [
+        {
+          "publisher": "Pillargram",
+          "date": "2026-08-21",
+          "headline": "Danial HM Finds Quiet Power in “Trace of a Gazelle”",
+          "url": "https://pillargram.com/post/danial-hm-finds-quiet-power-in-trace-of-a-gazelle",
+          "quote": "It makes its impression through atmosphere, tone and restraint."
+        },
         {
           "publisher": "Soaplife Magazine",
           "date": "2026-08-03",
