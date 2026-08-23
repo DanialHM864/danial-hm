@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "3.0",
+  "lastUpdated": "2026-08-23",
+  "releases": [
+    {
+      "slug": "a-prayer-beneath-the-ruins",
+      "title": "A Prayer Beneath the Ruins",
+      "artist": "Danial HM",
+      "type": "Single",
+      "status": "out-now",
+      "uploadDate": "2026-08-12",
+      "preorderDate": "2026-08-19",
+      "releaseDate": "2026-08-21",
+      "label": "Danial HM Records",
+      "upc": "881999434508",
+      "isrc": "QT6G92632573",
+      "cover": "assets/a-prayer-beneath-the-ruins-cover-hq.png",
+      "description": "A contemplative instrumental shaped by fracture, resilience and the quiet possibility of beginning again.",
+      "links": {
+        "spotify": "https://open.spotify.com/track/3PmooaWuwUwBODErGHrgo1",
+        "appleMusic": "https://music.apple.com/us/album/a-prayer-beneath-the-ruins-single/6800904878?uo=4",
+        "audiomack": "https://audiomack.com/danial-hm/song/a-prayer-beneath-the-ruins",
+        "hyperfollow": "https://distrokid.com/hyperfollow/danialhm/a-prayer-beneath-the-ruins?ref=release"
+      }
+    },
+    {
+      "slug": "trace-of-a-gazelle",
+      "title": "Trace of a Gazelle",
+      "artist": "Danial HM",
+      "type": "Single",
+      "status": "released",
+      "releaseDate": "2026-07-17",
+      "label": "Danial HM Records",
+      "cover": "assets/trace-of-a-gazelle-cover.jpg",
+      "description": "A solo Persian setar improvisation shaped by breath, resonance, restraint and attentive listening.",
+      "pressCount": 9
+    }
+  ]
+}
