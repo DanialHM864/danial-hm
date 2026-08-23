@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "3.0",
+  "lastUpdated": "2026-08-23",
+  "artist": {
+    "name": "Danial HM",
+    "fullName": "Danial Habib Moghaddam",
+    "role": "Composer · Persian Setar Artist",
+    "origin": "Iran",
+    "base": "Vienna, Austria",
+    "label": "Danial HM Records",
+    "tagline": "Music for the spaces between sound and silence.",
+    "shortBio": "Iranian composer and Persian setar artist based in Vienna, creating intimate contemporary instrumental music shaped by memory, restraint, resonance and attentive listening."
+  },
+  "website": {
+    "baseUrl": "https://danialhm864.github.io/danial-hm/",
+    "language": "en",
+    "themeColor": "#07070a",
+    "googleAnalyticsId": "G-W52V4DZGMG"
+  },
+  "social": {
+    "spotify": "https://open.spotify.com/artist/7mbLDzT68xF4dhPSrha8qX",
+    "appleMusic": "https://music.apple.com/us/artist/danial-hm/1854835918",
+    "youtube": "https://youtube.com/@danialhm-n5s",
+    "youtubeMusic": "https://music.youtube.com/channel/UCiuDRuWMnnzNT7MxCOu6dJA",
+    "instagram": "https://www.instagram.com/danialhm.music/",
+    "tiktok": "https://www.tiktok.com/@danialhm_music",
+    "soundcloud": "https://soundcloud.com/habibmoghaddamd",
+    "deezer": "https://www.deezer.com/artist/357717082",
+    "amazonMusic": "https://music.amazon.de/artists/B0G3FRPC7C"
+  },
+  "design": {
+    "direction": "Purple-led cinematic nocturnal minimalism",
+    "primary": "#8b5cf6",
+    "secondary": "#b794f6",
+    "background": "#07070a",
+    "blueAccent": "#5aa9ff",
+    "yellowAccent": "#ffd84d",
+    "orangeAccent": "#ff8a3d",
+    "text": "#f6f2ff",
+    "muted": "#aaa3b7"
+  }
+}
