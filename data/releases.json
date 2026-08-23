@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "3.0",
+  "schemaVersion": "3.1",
   "lastUpdated": "2026-08-23",
   "releases": [
     {
@@ -31,9 +31,77 @@
       "status": "released",
       "releaseDate": "2026-07-17",
       "label": "Danial HM Records",
+      "upc": "882877284284",
+      "isrc": "QT6EX2679816",
       "cover": "assets/trace-of-a-gazelle-cover.jpg",
       "description": "A solo Persian setar improvisation shaped by breath, resonance, restraint and attentive listening.",
       "pressCount": 9
+    },
+    {
+      "slug": "theyd-charge-for-air",
+      "title": "They’d Charge for Air",
+      "artist": "Danial HM",
+      "type": "Single",
+      "status": "released",
+      "releaseDate": "2026-04-24",
+      "label": "Danial HM Records",
+      "cover": "assets/theyd-charge-for-air-cover.jpg",
+      "description": "A restrained meditation on value, scarcity and what should perhaps never have had a price."
+    },
+    {
+      "slug": "unspoken-ground",
+      "title": "Unspoken Ground",
+      "artist": "Danial HM",
+      "type": "Single",
+      "status": "released",
+      "releaseDate": "2026-02-07",
+      "label": "Danial HM Records",
+      "cover": "assets/unspoken-ground-cover.jpg",
+      "description": "Music for the part of experience that arrives before explanation."
+    },
+    {
+      "slug": "in-the-presence-of-stillness",
+      "title": "In the Presence of Stillness",
+      "artist": "Danial HM",
+      "type": "Album",
+      "status": "released",
+      "releaseDate": "2026-01-23",
+      "label": "Danial HM Records",
+      "upc": "199938517923",
+      "cover": "assets/in-the-presence-of-stillness-cover.jpg",
+      "description": "An eight-movement listening journey built around patience, presence and inner space.",
+      "tracks": [
+        "Intro",
+        "Hidden Heart",
+        "The Light of Sorrow",
+        "The Last Night",
+        "The Tree of Truth",
+        "Miracle",
+        "Breath of Eternity",
+        "Where Pain Learns to Bloom"
+      ]
+    },
+    {
+      "slug": "where-pain-learns-to-bloom",
+      "title": "Where Pain Learns to Bloom",
+      "artist": "Danial HM",
+      "type": "Single",
+      "status": "released",
+      "releaseDate": "2025-12-26",
+      "label": "Danial HM Records",
+      "cover": "assets/where-pain-learns-to-bloom-cover.jpg",
+      "description": "A quiet study of transformation without pretending that pain was ever necessary."
+    },
+    {
+      "slug": "breath-of-eternity",
+      "title": "Breath of Eternity",
+      "artist": "Danial HM",
+      "type": "Single",
+      "status": "released",
+      "releaseDate": "2025-12-05",
+      "label": "Danial HM Records",
+      "cover": "assets/breath-of-eternity-cover.jpg",
+      "description": "The beginning of the recorded journey: a small doorway into a slower kind of listening."
     }
   ]
 }
