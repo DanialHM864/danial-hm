@@ -18,6 +18,28 @@ const acceptAnalytics = document.querySelector("#acceptAnalytics");
 const declineAnalytics = document.querySelector("#declineAnalytics");
 const privacySettings = document.querySelector("#privacySettings");
 
+// Keep Support visible site-wide without having to edit every page by hand.
+const isReleasePage = window.location.pathname.includes("/releases/");
+const supportHref = isReleasePage ? "../support.html" : "support.html";
+if (navigation && !navigation.querySelector('a[href$="support.html"]')) {
+  const supportLink = document.createElement("a");
+  supportLink.href = supportHref;
+  supportLink.textContent = "Support";
+  supportLink.className = "support-nav-link";
+  navigation.appendChild(supportLink);
+}
+
+document.querySelectorAll(".footer-nav").forEach((footerNav) => {
+  if (!footerNav.querySelector('a[href$="support.html"]')) {
+    const supportLink = document.createElement("a");
+    supportLink.href = supportHref;
+    supportLink.textContent = "Support";
+    const privacyLink = footerNav.querySelector('a[href$="privacy.html"]');
+    if (privacyLink) footerNav.insertBefore(supportLink, privacyLink);
+    else footerNav.appendChild(supportLink);
+  }
+});
+
 function closeMenu() {
   if (!menuButton || !navigation) return;
   menuButton.classList.remove("active");
@@ -30,6 +52,7 @@ if (menuButton && navigation) {
   menuButton.addEventListener("click", () => {
     const open = navigation.classList.toggle("open");
     menuButton.classList.toggle("active", open);
+    navigation.classList.toggle("open", open);
     document.body.classList.toggle("menu-open", open);
     menuButton.setAttribute("aria-expanded", String(open));
   });
